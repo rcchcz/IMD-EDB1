@@ -1,0 +1,349 @@
+>>> Lista de Contas: 
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+
+>>> Inserindo "Alex Bastos"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]-> "Empty"
+[3]-> "Empty"
+[4]-> "Empty"
+
+>>> Inserindo "Aline Souza"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]-> "Empty"
+[3]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[4]-> "Empty"
+
+>>> Inserindo "Cristiano Ronaldo"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[3]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[4]-> "Empty"
+
+>>> Inserindo "Jose Lima"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[3]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[4]-> "Empty"
+
+>>> Inserindo "Saulo Cunha"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[3]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[4]-> "Empty"
+
+>>> Inserindo "Lima Junior"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[3]->
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[4]-> "Empty"
+
+>>> Rehash() called!!
+>>> Inserindo "Carlito Pardo"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]-> "Empty"
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+>>> Inserindo "Januario Medeiros"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+
+
+>>> ESTADO FINAL da Tabela Hash de Contas: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+
+>>> Recuperando dados de "Cristiano Ronaldo":
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+
+>>> Removendo "Cristiano Ronaldo":
+
+
+>>> Tabela Hash apos remover: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]-> "Empty"
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+
+>>> Inserindo "Cristiano Ronaldo":
+
+
+>>> Tabela Hash apos insercao: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <150000> ]
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+
+>>> Alterando "Cristiano Ronaldo":
+
+
+>>> Tabela Hash apos insercao: 
+[0]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[1]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[2]-> "Empty"
+[3]-> "Empty"
+[4]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[5]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[6]-> "Empty"
+[7]-> "Empty"
+[8]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[9]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[10]-> "Empty"
+
+
+>>> Apagando a tabela: 
+
+
+>>> Tabela Hash apos limpar: 
+[0]-> "Empty"
+[1]-> "Empty"
+[2]-> "Empty"
+[3]-> "Empty"
+[4]-> "Empty"
+[5]-> "Empty"
+[6]-> "Empty"
+[7]-> "Empty"
+[8]-> "Empty"
+[9]-> "Empty"
+[10]-> "Empty"
+
+>>> Size = 0
+>>> Inserindo "Alex Bastos"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]-> "Empty"
+
+>>> Size = 1
+>>> Inserindo "Aline Souza"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[2]-> "Empty"
+
+>>> Size = 2
+>>> Inserindo "Cristiano Ronaldo"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[2]-> "Empty"
+
+>>> Size = 3
+>>> Inserindo "Jose Lima"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+[2]-> "Empty"
+
+>>> Size = 4
+>>> Rehash() called!!
+>>> Inserindo "Saulo Cunha"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[3]-> "Empty"
+[4]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[5]-> "Empty"
+[6]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+
+>>> Size = 5
+>>> Inserindo "Lima Junior"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]-> "Empty"
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[3]-> "Empty"
+[4]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[5]-> "Empty"
+[6]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+
+>>> Size = 6
+>>> Inserindo "Carlito Pardo"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[2]->
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[3]-> "Empty"
+[4]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[5]-> "Empty"
+[6]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+
+>>> Size = 7
+>>> Inserindo "Januario Medeiros"
+>>> Tabela Hash de Contas depois da insercao: 
+[0]->
+[ Client: <Lima Junior> Bank: <12> Branch: <123> Number: <5671> Balance: <150> ]
+[ Client: <Saulo Cunha> Bank: <116> Branch: <666> Number: <1> Balance: <5490> ]
+[ Client: <Alex Bastos> Bank: <1> Branch: <1668> Number: <54321> Balance: <1500> ]
+[1]->
+[ Client: <Carlito Pardo> Bank: <28> Branch: <506> Number: <9816> Balance: <50> ]
+[2]->
+[ Client: <Januario Medeiros> Bank: <17> Branch: <324> Number: <7777> Balance: <4850> ]
+[ Client: <Cristiano Ronaldo> Bank: <13> Branch: <557> Number: <87629> Balance: <4e+07> ]
+[3]-> "Empty"
+[4]->
+[ Client: <Jose Lima> Bank: <18> Branch: <331> Number: <1231> Balance: <850> ]
+[5]-> "Empty"
+[6]->
+[ Client: <Aline Souza> Bank: <1> Branch: <1668> Number: <45794> Balance: <530> ]
+
